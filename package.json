@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "convex:dev": "convex dev",
-    "deploy": "npx @convex-dev/static-hosting deploy"
+    "deploy": "npx @convex-dev/static-hosting deploy",
+    "typecheck": "tsc -b"
   },
   "dependencies": {
     "@agentmail/convex": "^0.1.0",
