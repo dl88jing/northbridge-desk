@@ -1,5 +1,7 @@
 # Northbridge Desk
 
+**Live:** https://necessary-stork-699.convex.site
+**Repo:** https://github.com/dl88jing/northbridge-desk
 Everyday household mail-ops desk for **Avery & Morgan** / **Northbridge**. Forward landlord, HOA, school, insurance, and contractor mail — Northbridge Desk verifies linked claims with Firecrawl, extracts deadlines with OpenAI, and drafts replies that send from the case inbox via AgentMail. Live on Convex.
 
 ## Architecture
@@ -89,7 +91,7 @@ Register the AgentMail webhook URL:
 
 `https://<your-deployment>.convex.site/agentmail/webhook`
 
-Live app URL will look like `https://<deployment-name>.convex.site`.
+**Live app:** https://necessary-stork-699.convex.site
 
 ## Repo
 

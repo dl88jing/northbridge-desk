@@ -12,7 +12,7 @@
 - **Auth:** none
 - **AI models:** gpt-4o-mini
 - **Started:** 2026-09-22T08:55:17Z
-- **Last updated:** 2026-09-22T09:17:52Z
+- **Last updated:** 2026-09-22T09:31:00Z
 
 ## Log
 
@@ -21,3 +21,6 @@ Built the full Northbridge Desk source under time pressure when cloud agents hit
 
 ### 2026-09-22 - working tree
 Linked Convex project `northbridge-desk` on team dylan-ler, set FIRECRAWL_API_KEY on the development deployment, pushed backend (demo-mode E2E with live Firecrawl when keyed), and uploaded the Vite frontend via `@convex-dev/static-hosting` to https://necessary-stork-699.convex.site. Convex features: components installed (firecrawl, agentmail, staticHosting), HTTP health + AgentMail webhook routes (`convex/http.ts`).
+
+### 2026-09-22 - working tree
+Set AGENTMAIL_API_KEY + AGENTMAIL_DEFAULT_INBOX_ID on the development deployment and registered a signed AgentMail webhook for message.received to the case inbox HTTP route. Demo video rendered (HyperFrames + HeyGen TTS, ~68s). Convex features: env vars, HTTP webhook (`convex/http.ts`, `convex/mail.ts`).
